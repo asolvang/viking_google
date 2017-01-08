@@ -1,7 +1,51 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.page-content-wrapper {
+	margin-bottom: 50px;
+}
+
 .header {
 	height: 24px;
 	padding: 10px 25px 0 25px;
 }
+
 .right-menu {
 	float: right;
+}
+
+.header .right-menu a {
+	text-decoration: none;
+	padding-right: 10px;
+	color: #777;
+
+}
+
+.search-area {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.search-area img {
+	width: 35%;
+}
+
+.search-area input {
+	font-size: 18px;
+}
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
 }
